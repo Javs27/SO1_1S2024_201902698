@@ -1,0 +1,20 @@
+Para compilar un modulo:
+        make all
+
+Para limpia la consola: 
+        sudo dmesg -C
+
+Para montar un modulo en el kernel:
+       sudo insmod ram.ko 
+        sudo insmod modulo_cpu.ko
+
+Para ver la consola:
+        usdo dmesg
+
+Para desmontar un modulo del kernel:
+        sudo rmmod ram.ko
+        sudo rmmod modulo_cpu.ko
+cat al modulo ram_201902698
+
+ cat /proc/ram_so1_1s2024
+ cat /proc/modulo_cpu
